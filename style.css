@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+    
+}
+header{
+    background-color: rgba(128, 69, 69, 0.521);
+    width: 100%;
+    position: fixed;
+    z-index: 999; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo span {
+    margin: 0px 41px;
+    font-size: x-large;
+    width: 40%;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+.logo img{
+    width: 100px;
+    
+}
+.navigation a{
+    color: white;
+    background-color: rgba(204, 204, 181, 0.6);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 15px;
+    
+}
+.navigation a span:hover{
+    color: black;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    background: url(img/background.jpg) no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+.main h1{
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 550;
+}
+.main h1 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    font-size: -3em;
+    font-weight: 300;
+}
+/* .main-btn{
+    padding: 8px;
+} */
+.main-btn a {
+    color: white;
+    background-color: rgba(166, 91, 86, 0.9);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 1em 2.2em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+
+}
+.main-btn a:hover{
+    background-color: rgba(116, 43, 38, 0.9);
+    transform: scale(1.1);
+}
+.main-btn .a{
+    margin: 10px 2px 8px 16px;
+}
+.second-part{
+    display: flex;
+}
+.second-part img{
+    width: 50%;
+    height: 100%;
+    /* background-image: url(img/moon.PNG); */
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+.second-part .right{
+    background-color: rgba(253, 234, 205, 0.98);
+    width: 50%;
+    height: 100%;
+}
+.right h1{
+    padding: 131px;
+    margin-right: 10px;
+     text-align: start; 
+     display: grid; 
+    place-content: center;
+}
